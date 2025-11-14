@@ -1,4 +1,39 @@
-luckfox3506-backups/
-_autosave-luckfox3506.kicad_pcb
-*auto_saved_files#
-~*
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+/build
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Footprint association file (exported from Pcbnew)
+*.cmp
+
+# Exported BOM files
+*.xml
+*.csv
+*.tsv
+
+# Misc
+*.log
+*.raw
+.svg2shenzhen-cache
+
+luckfox3506-backups
+fp-info-cache
